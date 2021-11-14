@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/stylesheet.css">
+<link rel="stylesheet" href="css/w3.css">
+<style>
+body{font-family: 'Courier New', Courier, monospace;
+font-weight: bold;}
+.mySlides {display: none}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="about.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT</a>
+    <a href="booksvsmovies.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">BOOKS VERSUS MOVIES</a>
+    <a href="images.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">THE AUTHOR</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="contact.html" class="w3-bar-item w3-button">CONTACT</a>
+        <a href="report.html" class="w3-bar-item w3-button">REPORT</a>
+      </div>
+    </div>
+    <!--
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>-->
+  </div>
+</div>
+   <!--
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>-->
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="about.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ABOUT</a>
+  <a href="booksvsmovies.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BOOKS VERSUS MOVIES</a>
+  <a href="images.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">THE AUTHOR</a>
+  <a href="contact.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="report.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">REPORT</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- The Introduction -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide">Harry Potter</h2>
+    <p class="w3-opacity"><i>By JK Rowling</i></p>
+    <p class="w3-center">Books Versus Movies. This section ill be comparing the books and the movies.</p>
+    <div class="w3-row w3-padding-32">
+      <img src="images/booksvsimagesbackground.jpg">
+      <h2>Versus</h2>
+      <img src="images/Harry-potter-films.png" width="450" height="370">
+    </div>
+  </div>
+
+  <!-- The Main Section -->
+  <div class="w3-black" id="tour">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <table border="1" style="width:100%">
+        <tr>
+          <th><h3>Books</h3></th>
+          <th><h3>Movies</h3></th>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align:center">
+            <h4>Harry Potter And the Sorcerers Stone</h4>
+          </td>
+        </tr>
+        <tr>
+          <td>Aunt Petunia and Dudley are blonde</td>
+          <td>Aunt Petunia and Dudley are brunette</td>
+        </tr>
+        <tr>
+          <td>Harry met Draco Malfoy and rejected his friendship in Diagon Alley</td>
+          <td>Harry met Draco Malfoy and rejected his friendship at Hogwarts before the Sorting Hat</td>
+        </tr>
+        <tr>
+          <td>Voldemort kills Quirrell by leaving his head</td>
+          <td>Harry kills Quirrell by touching his face</td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align:center">
+            <h4>Harry Potter And the Chamber of Secrets</h4>
+          </td>
+        </tr>
+        <tr>
+          <td>Mr. Weasley fixes Harry's glasses in Diagon Alley</td>
+          <td>Hermione fixes Harry's glasses in Diagon Alley</td>
+        </tr>
+        <tr>
+          <td>In The books Filch is classified as a squib</td>
+          <td>The movie never clarifies that Mr. Filch is a squib and has no magic</td>
+        </tr>
+        <tr>
+          <td>The heir of Slytherin message is written in paint</td>
+          <td>The heir of Slytherin message is written in blood</td>
+        </tr>
+        <tr>
+        <tr>
+          <td colspan="2" style="text-align:center">
+            <h4>Harry Potter And the Prisoner of Azkaban</h4>
+          </td>
+        </tr>
+        <tr>
+          <td>Harry pretends to be Neville Longbottom while on the Knight Bus</td>
+          <td>Harry is himself while on the Knight Bus</td>
+        </tr>
+        <tr>
+          <td>Sir Cadogan's portrait replaces the Fat Lady's after she's attacked by Sirius Black.</td>
+          <td>The Fat lady isnt replaced</td>
+        </tr>
+        <tr>
+          <td>In the books the backstory of the maurader is explained in great detail</td>
+          <td>The film doesn't explain the origin story of The Marauders</td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align:center">
+            <h4>Harry Potter And the Goblet of Fire</h4>
+          </td>
+        </tr>
+        <tr>
+          <td>Voldemort has red eyes in the books</td>
+          <td>In the movie his eyes are white</td>
+        </tr>
+        <tr>
+          <td>After Harry won the Tournament, he gave his winnings to Fred and George to start Weasleys Wizard Wheezes</td>
+          <td>In the movie it isnt stated</td>
+        </tr>
+        <tr>
+          <td>Hermione sets up SPEW (The Society for the Promotion of Elfish Welfare) and her plans are mentioned </td>
+          <td>Hermione's SPEW (The Society for the Promotion of Elfish Welfare) wasn't mentioned in the film.</td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align:center">
+            <h4>Harry Potter And the order of the Phoenix</h4>
+          </td>
+        </tr>
+        <tr>
+          <td>Harry goes on a date with Cho Chang in the novel</td>
+          <td>This isnt mentioned in the movie</td>
+        </tr>
+        <tr>
+          <td>Ron and Hermione are prefects</td>
+          <td>This isnt mentioned in the movie</td>
+        </tr>
+        <tr>
+          <td>Marietta Edgecombe spills the beans about Dumbledore's Army</td>
+          <td>While Cho Chang spills the beans about Dumbledore's Army</td>
+        </tr>
+          <tr>
+          <td colspan="2" style="text-align:center">
+            <h4>Harry Potter And the Half-Blood Prince</h4>
+          </td>
+        </tr>
+        <tr>
+          <td>After Draco leaves Harry unconscious on Hogwarts Express, Tonks finds him in the novel</td>
+          <td>After Draco leaves Harry unconscious on Hogwarts Express, Luna finds him in the novel</td>
+        </tr>
+        <tr>
+          <td>The Burrow is not attacked by Death Eaters during the Christmas</td>
+          <td>The Burrow is attacked by Death Eaters during the Christmas</td>
+        </tr>
+        <tr>
+          <td>Harry hid the Half-Blood Prince's book in the Room of Requirement</td>
+          <td>Ginny hid the Half-Blood Prince's book in the Room of Requirement</td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align:center">
+            <h4>Harry Potter And the Deathly Hallows</h4>
+          </td>
+        </tr>
+        <tr>
+          <td>The pregnancy and the child being Harrys godchild is announced in the book</td>
+          <td>Remus' reveal of Tonks' pregnancy, the birth of their son Teddy, and the fact that Harry is the godfather isn't mentioned in the film</td>
+        </tr>
+        <tr>
+          <td>In the book we get great detail on the backstory of Reguluis Black</td>
+          <td>The backstory of Regulus Black, a former Death Eater and Sirius' brother, is not expanded upon in the films.</td>
+        </tr>
+        <tr>
+          <td>Percy is very much present at the Battle of Hogwarts</td>
+          <td>He is not seen to take part in the movies</td>
+        </tr>
+      </table>
+      <h6 style="text-align: center;">DISCLAIMER: All of these have been taken from the <a href="https://www.oprahmag.com/entertainment/tv-movies/a32629571/harry-potter-books-movie-differences/">Oprah Magazine </a>Website</h6>
+    </div>
+  </div>
+
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <div class="w3-center w3-padding">
+      <iframe width="500" height="480" src="https://www.youtube.com/embed/MNFZXqV8wHI"></iframe>
+      <p>Taken From The MovieFlame Youtube Channel</p>	
+    </div>
+  </div>
+  
+<!-- End Page Content -->
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <p>&copy; Copyright: Clodagh Kelly</p>
+  <p>Email: A00283078@student.ait.ie</p>
+</footer>
+
+<script>
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+</script>
+
+</body>
+</html>

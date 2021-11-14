@@ -1,0 +1,75 @@
+ body{
+    background-image: url(../W3CSS_Root/images/marblebg.jpg);
+    width: 100%;
+    background-repeat: repeat;
+    background-size: 500px;
+    background-position: center;
+    background-position-y: top;
+    background-attachment: fixed;
+    background-color: lightslategray;
+    font-family: fantasy;
+
+}
+
+.w3-row-padding img {
+  margin-bottom: 12px
+  }
+
+.responsive {
+    width: 100%;
+    height: auto;
+  }
+
+h1{
+    color: rgb(31, 72, 197);
+    position: center;
+    font-family: fantasy;
+    letter-spacing: 6px;
+    width: 100%;
+}
+h2{
+    color: rgb(96, 85, 252);
+    position: center;
+    text-align: center;
+    font-family: fantasy;
+    width: 100%;
+}
+h4{
+  color: rgb(0, 0, 0);
+  position: center;
+  text-align: center;
+  width: 100%;
+}
+
+p{
+    color: rgb(0, 0, 0);
+    position: center;
+    text-align: left;
+    width: 100%;
+}
+
+iframe{
+    margin: center;
+    position: center;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .main {
+    margin-top: 30px; 
+  }
+  footer{
+    background-image: url(../images/marblebg.jpg);
+    background-repeat: repeat;
+		background-size: 500px;
+    background-position: center;
+		background-position-y: top;
+    background-attachment: fixed;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+  }

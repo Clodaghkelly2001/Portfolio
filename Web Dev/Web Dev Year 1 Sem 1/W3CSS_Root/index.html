@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/stylesheet.css">
+<link rel="stylesheet" href="css/w3.css">
+<style>
+body{font-family: 'Courier New', Courier, monospace;
+font-weight: bold;}
+.mySlides {display: none}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="about.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT</a>
+    <a href="booksvsmovies.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">BOOKS VERSUS MOVIES</a>
+    <a href="images.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">THE AUTHOR</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="contact.html" class="w3-bar-item w3-button">CONTACT</a>
+        <a href="report.html" class="w3-bar-item w3-button">REPORT</a>
+      </div>
+    </div>
+    <!--
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>-->
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="about.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ABOUT</a>
+  <a href="booksvsmovies.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BOOKS VERSUS MOVIES</a>
+  <a href="images.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">THE AUTHOR</a>
+  <a href="contact.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="report.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">REPORT</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- The Introduction -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide">Harry Potter</h2>
+    <p class="w3-opacity"><i>By JK Rowling</i></p>
+    <p class="w3-justify">The Harry Potter Series is a book series based on a magical world in which a young boy Harry fights for his life against one of the most evil wizards of all time Voldemort.
+      During the Harry Potter Series Harry makes many friends aka his sidekicks Ron and Hermione and many enemies Draco Malfoys and his goons Crab and Goyle, And each New school Year comes with a new fight in which Harry has to survive.
+      The Series comes with a lot of twists and turns in which excites you to want to delve into this universe more. </p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-third">
+        <p>Harry Potter</p>
+        <img src="images/Harry potter.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p>Dobby</p>
+        <img src="images/report.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p>Voldemort</p>
+        <img src="images/voldemort.jpg" class="w3-round" alt="Random Name" style="width:60%">
+      </div>
+    </div>
+  </div>
+
+  <!-- The Main Section -->
+  <div class="w3-black" id="tour">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">The Pages</h2>
+      <p class="w3-opacity w3-center"><i>What Each page contains</i></p><br>
+
+      <div class= "w3-padding">
+        <h2>
+          The <a href="about.html">About </a> Page
+        </h2>
+        <p>This Page Contains all the information about the Harry Potter movies. Generating information from outside sources and the books and movies themselves.
+          As a harry potter fan this website will contain only factual and correct information taken from reliable sources such as the <a href="https://www.wizardingworld.com/"> Wizarding World</a> Website and other sources.
+          I will also be giving a quick blurb on what each new school year contains the stories and all. This i feel is the most important page as you will get the most information about the Harry Potter Series on this page.
+        </p>
+        <p class="w3-center">!!SPOILERS ALERT!!</p>
+      </div>
+      
+      <div class= "w3-padding">
+        <h2>
+          The <a href="booksvsmovies.html">Books Versus Movies</a> Page
+        </h2>
+        <p>
+          This Page contains all the information about the books and movies including which is better and why. 
+          i will be comparing the books and the movies and i will give my point of view on why the books are better.
+          This page will also show the covers for the books and movies on this page to allow and give some colour to my page.
+        </p>
+      </div>
+      <div class= "w3-padding">
+        <h2>
+          The <a href="contact.html">Contact</a> Page
+        </h2>
+        <p>
+          This page tells you all my contact information and how to contact me or any other external sources.
+          it will include my school email, my persona email and my phone number/
+          The sources that i will have stated i will have provided links for on thsi pae for you to have a look yourself.
+        </p>
+      </div>
+      <div class= "w3-padding">
+        <h2>
+          The <a href="images.html">The Author</a> 
+        </h2>
+        <p>
+          This page contains information on the author herself her back story and he life. I feel that to know the series you need to know the author and the mind behind the great story that is Harry Potter.
+        </p>
+      </div>
+      <div class= "w3-padding">
+        <h2>
+          The <a href="report.html">Report</a> Page
+        </h2>
+        <p>
+          This page is the report page for this assingment. It will give an overview of my website and and what is responsive and unresponsive i will also be stating my sources again and explaining what i hhave used in terms of css and w3css.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- The video section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <div class=" w3-half w3-center w3-padding">
+      <iframe width="350" height="270" src="https://www.youtube.com/embed/fBziSx7RtqY"></iframe>
+      <h4>Taken From The Wizarding World Youtube Channel</h4>	
+    </div>
+    <div class="w3-half w3-center w3-padding">
+      <iframe width="350" height="270" src="https://www.youtube.com/embed/iw0RWnC28Gs"></iframe>
+      <h4>Taken From The Wizarding World Youtube Channel</h4>	
+    </div>
+  </div>
+  
+<!-- End Page Content -->
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <p>&copy; Copyright: Clodagh Kelly</p>
+  <p>Email: A00283078@student.ait.ie</p>
+</footer>
+
+<script>
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/stylesheet.css">
+<link rel="stylesheet" href="css/w3.css">
+<style>
+body{font-family: 'Courier New', Courier, monospace;
+font-weight: bold;}
+.mySlides {display: none}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="about.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT</a>
+    <a href="booksvsmovies.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">BOOKS VERSUS MOVIES</a>
+    <a href="images.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">THE AUTHOR</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="contact.html" class="w3-bar-item w3-button">CONTACT</a>
+        <a href="report.html" class="w3-bar-item w3-button">REPORT</a>
+      </div>
+    </div>
+    <!--
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>-->
+  </div>
+</div>
+    <!--
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>-->
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="about.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ABOUT</a>
+  <a href="booksvsmovies.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BOOKS VERSUS MOVIES</a>
+  <a href="images.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">THE AUTHOR</a>
+  <a href="contact.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="report.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">REPORT</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+  <!-- The Main Section -->
+  <div class="w3-black" id="tour">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <table border="3">
+        <tr>
+          <th>Page</th>
+          <th>Markup</th>
+          <th>Responsive</th>
+          <th>Description</th>
+        </tr>
+        <tr>
+          <td rowspan="2"><a href="index.html">Home</a></td>
+          <td>HTML</td>
+          <td>Yes</td>
+          <td rowspan="2">This page i used a mix of css and w3 css which were both on an internal and external stylesheet. i used and implemented photos using the image tag and adjusted their size within the tag also i found this quite easy to use. I also used the iframe tag to link aa youtube video. this one was much harder to implememnt as to adjust the size and to centre it took a little bit of fiddling. </td>
+        </tr>
+        <tr>
+          <td>CSS/W3CSS</td>
+          <td>Yes</td>
+        </tr>
+        <tr>
+          <td rowspan="2"><a href="about.html">About</a></td>
+          <td>HTML</td>
+          <td>Yes</td>
+          <td rowspan="2">This page i used a mix of css and w3 css which were both on an internal and external stylesheet.In this page i also used the images and the ifram tag as before but thy werent as hard to implement as i used the same css as i did in the first page to perfect it. </td>
+        </tr>
+        <tr>
+          <td>CSS/W3CSS</td>
+          <td>Yes</td>
+        </tr>
+        <tr>
+          <td rowspan="2"><a href="booksvsmovies.html">Books VS Movies</a></td>
+          <td>HTML</td>
+          <td>Yes</td>
+          <td rowspan="2">This page i used a mix of css and w3 css which were both on an internal and external stylesheet. in this one while also using images and iframe tags i also used the table tag. The table tag was very easy to implement as it was the same tag repeated. i also used the border style to show the border around the table itself. </td>
+        </tr>
+        <tr>
+          <td>CSS/W3CSS</td>
+          <td>Yes</td>
+        </tr>
+        <tr>
+          <td rowspan="2"><a href="contact.html">Contact</a></td>
+          <td>HTML</td>
+          <td>Yes</td>
+          <td rowspan="2">This page i used a mix of css and w3 css which were both on an internal and external stylesheet.the rest oof this page was just used from the template itself</td>
+        </tr>
+        <tr>
+          <td>CSS/W3CSS</td>
+          <td>Yes</td>
+        </tr>
+        <tr>
+          <td rowspan="2"><a href="images.html">The Author</a></td>
+          <td>HTML</td>
+          <td>Yes</td>
+          <td rowspan="2">This page i used a mix of css and w3 css which were both on an internal and external stylesheet. Just like before i also used images and tables all of which work and are responsive</td>
+        </tr>
+        <tr>
+          <td>CSS/W3CSS</td>
+          <td>Yes</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+ 
+<!-- End Page Content -->
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <p>&copy; Copyright: Clodagh Kelly</p>
+  <p>Email: A00283078@student.ait.ie</p>
+</footer>
+
+<script>
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+</script>
+
+</body>
+</html>

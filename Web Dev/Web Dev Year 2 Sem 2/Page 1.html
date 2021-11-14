@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Web Project</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-light-green.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<!-- CSS -->
+<style>
+    html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+    body {
+      background-image: url("images/blackbg.jpg");
+    }
+    .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      color:rgb(0, 0, 0);
+      text-align: center;
+      background-color: rgb(170, 255, 121);
+    }
+    </style>
+
+
+<body>
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme-d2 w3-left-align">
+   <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+   <a href="Page 1.html" class="w3-bar-item w3-button w3-white w3-hover-white"><i class="fa fa-home w3-margin-right w3-hover-white"></i>Page 1</a>
+   <a href="Page 2.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Page 2</a>
+     <div class="w3-dropdown-hover w3-hide-small">
+     <button class="w3-button w3-w3-hover-white" title="Notifications">Dropdown <i class="fa fa-caret-down w3-w3-hover-white"></i></button>     
+     <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+       <a href="Page 3.html" class="w3-bar-item w3-button w3-hover-green">Page 3</a>
+       <a href="Page 4.html" class="w3-bar-item w3-button w3-hover-green">Page 4</a>
+       <a href="Page 5.html" class="w3-bar-item w3-button w3-hover-green">Page 5</a>
+     </div>
+   </div>
+  
+  </div>
+ 
+   <!-- Navbar on small screens -->
+   <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+     <a href="Page 1.html" class="w3-bar-item w3-button w3-hover-white">Page 1</a>
+     <a href="Page 2.html" class="w3-bar-item w3-button w3-hover-white">Page 2</a>
+     <a href="Page 3.html" class="w3-bar-item w3-button w3-hover-white">Page 3</a>
+     <a href="Page 4.html" class="w3-bar-item w3-button w3-hover-white">Page 4</a>
+     <a href="Page 5.html" class="w3-bar-item w3-button w3-hover-white">Page 5</a>
+   </div>
+</div>
+
+
+<!-- Main content:-->
+<div class="w3-main">
+  <div class="w3-padding-64">
+    <div class=" w3-container">
+      <div style="border: 10px solid grey; background-color: ivory;">
+        <form name="form">
+          <p style="font-size: 20px; text-align: center">Please enter first Number <input type="text" name="num1"></p> 
+          <p style="font-size: 20px; text-align: center">Please enter second Number <input type="text" name="num2"></p> 
+          <p style="font-size: 20px; text-align: center"><input type="button" name="btn1" value="Add" onclick="add()">  
+            <input type="button" name="btn2" value="Subtract" onclick="subtract()">  
+            <input type="button" name="btn3" value="Multiply" onclick="multiply()">  
+            <input type="button" name="btn4" value="Divide" onclick="divide()"></p> 
+          <p style="font-size: 20px; text-align: center"><input type="text" name="res"></p> 
+      </form>
+    </div>
+  </div>
+
+
+  
+  <div class="w3-padding-64">
+    <div class=" w3-container">
+      <div style="border: 10px solid grey; background-color: ivory;">
+        <h1 class="w3-text-green" style=" font-size: 30px; font-weight: bold; text-align: center"> This is to find the Absolute difference of numbers</h1>
+        <p style="font-size: 20px; text-align: center">Please enter first variable <input type="text" id="var1"></p>
+        <p style="font-size: 20px; text-align: center">Please enter second variable <input type="text" id="var2"></p>
+        <p style="font-size: 20px; text-align: center"> <button onclick="diff();">Calculate</button></p>
+        <p style="font-size: 20px; text-align: center"><span id="result"></span></p>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+
+
+
+  <!-- Footer -->
+  <div class="footer">
+    <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</div>
+
+
+<script src="javascript/page1.js">
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+</script>
+
+
+</body>
+</html>
